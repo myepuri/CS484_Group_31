@@ -1,0 +1,22 @@
+Evaluation Results for Contrastive Model on CIFAR-10:
+Adjusted Rand Index (ARI): 0.010010325205884633
+Silhouette Score: 0.5183830248766926
+NMI: 0.028993948692716126
+Clustering Accuracy: 0.1402
+Linear Classification Accuracy: 0.1379
+Execution Time (s): 0.2120974063873291
+GPU Memory Used (MB): 0
+CPU Memory Used (MB): 613.433344
+
+Evaluation Results for Masked Auto Encoder Model on CIFAR-10:
+Adjusted Rand Index (ARI): 0.010545986845766183
+Silhouette Score: 0.5083845080837335
+NMI: 0.031275390262579514
+Clustering Accuracy: 0.142
+Reconstruction Error (MSE): 0.35239672660827637
+Execution Time (s): 0.20456862449645996
+GPU Memory Used (MB): 0
+CPU Memory Used (MB): 691.707904
+
+
+

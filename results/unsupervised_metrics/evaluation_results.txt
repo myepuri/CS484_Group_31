@@ -1,0 +1,21 @@
+Evaluation Results for K-Means on Pre-Trained ResNet-18 Features:
+Adjusted Rand Index (ARI): -4.172694100471389e-05
+Silhouette Score: 0.0704142302274704
+NMI: 0.00026651527788634907
+Clustering Accuracy: 0.10532
+Execution Time (s): 0.23877549171447754
+GPU Memory Used (MB): 0
+CPU Memory Used (MB): 883.253248
+
+Evaluation Results for Autoencoder on CIFAR-10:
+Adjusted Rand Index (ARI): 0.023874430129920833
+Silhouette Score: 0.031804136696854696
+NMI: 0.04524378425475182
+Clustering Accuracy: 0.1612
+Reconstruction Error (MSE): 0.26550421118736267
+Linear Classification Accuracy: 0.3285
+Execution Time (s): 0.2450571060180664
+GPU Memory Used (MB): 0
+CPU Memory Used (MB): 943.071232
+
+
