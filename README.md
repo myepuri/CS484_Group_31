@@ -12,75 +12,59 @@ A comprehensive implementation of unsupervised and self-supervised learning appr
 - Comprehensive evaluation metrics and visualization tools
 - Modular architecture for easy extension
 
-## Project Structure
-
-```
-ML_Project/
-├── data/
-│   └── cifar10/          # CIFAR-10 dataset storage
-├── models/
-│   ├── unsupervised/     # Traditional unsupervised models
-│   ├── self_supervised/  # Self-supervised implementations
-│   └── utils/           # Helper functions and utilities
-├── results/
-│   ├── unsupervised_metrics/
-│   ├── self_supervised_metrics/
-│   └── visualizations/
-└── train_scripts/        # Training implementations
-```
 
 ## Setup Instructions
 
 1. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
+   
+   cmd: python -m venv venv
 
    Set Execution Policy: Run the following command to temporarily allow running scripts:
-   powershell
+   
    cmd: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-      This will only affect the current PowerShell session.
+      
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+   
 
 2. Install required packages:
-   ```bash
+   
    pip install -r requirements.txt
-   ```
+   
 
 3. Create necessary directories:
-   ```bash
+   
    mkdir -p data/cifar10
    mkdir -p results/unsupervised_metrics
    mkdir -p results/self_supervised_metrics
    mkdir -p results/visualizations
-   ```
+   
 
 ## Running the Models
 
 ### 1. K-means Clustering
-```bash
+
 python train_scripts/unsupervised/train_kmeans.py
-```
+
 
 ### 2. Autoencoder
-```bash
+
 python train_scripts/unsupervised/train_autoencoder.py
-```
+
 
 ### 3. SimCLR (Contrastive Learning)
-```bash
+
 python train_scripts/self_supervised/train_contrastive_model.py
-```
+
 
 ### 4. Masked Autoencoder (MAE)
-```bash
+
 python train_scripts/self_supervised/train_masked_prediction_model.py
-```
+
 
 ### 5. Visualize Results
-```bash
+
 python visualize_results.py
-```
+
 
 ## Configuration
 
