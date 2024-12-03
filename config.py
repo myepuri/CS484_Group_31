@@ -1,4 +1,3 @@
-# config.py
 
 # General Configuration
 import torch
@@ -35,5 +34,4 @@ VISUALIZATION_DIR = f'{RESULTS_DIR}/visualizations'
 # Training ResNet-18
 RESNET_NUM_CLASSES = 10  # Number of output classes for ResNet-18 when training on CIFAR-10
 
-# Miscellaneous
 SEED = 42  # Seed for reproducibility across the project
